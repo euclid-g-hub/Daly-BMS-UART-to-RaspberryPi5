@@ -8,12 +8,9 @@ README = (HERE / "README.md").read_text()
 setup(
     name="dalybms",
     version="0.4.0",
-    description="Client for Daly BMS",
+    description="A Python client for the Daly BMS",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/dreadnought/python-daly-bms",
-    author="Patrick Salecker",
-    author_email="mail@salecker.org",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
